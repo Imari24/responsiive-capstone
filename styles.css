@@ -1,0 +1,78 @@
+body{
+    background-image: url(Images/Imari\ \(2\).png);
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size:30px;
+    margin: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+li, a {
+    text-decoration: none;
+
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.nav-links li a{
+    color: rgb(42, 155, 144);
+}
+.nav-links li a:hover{
+    color: rgb(207, 156, 208);
+    border: 1px solid rgb(137, 211, 199);
+    padding: 15px;
+    border-radius: 10px;
+}
+.main-section{
+    width: 700px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.main-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.under-text{
+    font-family: cursive;
+}
+.main-paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+button{
+    background: rgb(163, 230, 210);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(236, 185, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-next{
+    margin-left: 20px;
+}
+button:hover{
+    background-color: rgb(244, 173, 232);
+    border: 1px solid rgb(163, 230, 210); 
+}
